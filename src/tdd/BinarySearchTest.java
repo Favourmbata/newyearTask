@@ -1,5 +1,6 @@
-package binarysearchAlgorithm;
+package tdd;
 
+import binarysearchAlgorithm.BinarySearch;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,9 +16,12 @@ class BinarySearchTest {
  @Test
     void binarySearchOfTarget(){
      BinarySearch binarySearch = new BinarySearch();
-        int [] myArr = {2,4,5,6,7,8,9};
+        int [] inputArray = {2,4,5,6,7,8,9};
         int target = 6;
-//        assertArrayEquals(6,{binarySearch.getIndexOfTarget(myArr, target)});
+        int [] outputArray = {3};
+
+        int [] result = binarySearch .getTargetIndexOfAnElement(inputArray,target);
+        assertArrayEquals(outputArray, result);
  }
 
 }

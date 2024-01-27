@@ -25,7 +25,7 @@ public class CircularRotationArray {
             return  -1;
     }
     public static void main(String[] args) {
-    int []numberRotation = {8,9,10,2,5,6};
+    int []numberRotation = {8,9,2,2,2,5,6};
         System.out.println("Array is rotated "+ findNumberOfRotation(numberRotation) + "times");
     }
 }
