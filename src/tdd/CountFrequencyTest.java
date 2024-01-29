@@ -17,4 +17,13 @@ public class CountFrequencyTest {
         System.out.println(Arrays.toString(result));
         assertArrayEquals(output,result);
     }
+
+    @Test
+            void frequentNumber(){
+    int []input = {2,1,1,2,1};
+    int [] output = {2};
+    int [] result = countFrequency.getFrequentNumber(input);
+       assertArrayEquals(output,result);
+}
+
 }

@@ -1,5 +1,6 @@
-package leetcodeProblem;
+package tdd;
 
+import leetcodeProblem.PivotIndex;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
