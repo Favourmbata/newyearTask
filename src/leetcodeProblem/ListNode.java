@@ -24,7 +24,7 @@ public class ListNode {
         return dummy.next;
     }
 
-    public static int[] convertToArray(ListNode head) {
+    public static int[] convertToArray(ArrayList<Integer> head) {
         List<Integer> list = new ArrayList<>();
 
         while (head != null) {
@@ -40,8 +40,3 @@ public class ListNode {
         return result;
     }
 }
-//
-//
-//
-//
-//
