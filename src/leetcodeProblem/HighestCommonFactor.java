@@ -1,13 +1,13 @@
 package leetcodeProblem;
 
 import java.util.ArrayList;
-
-import static leetcodeProblem.ListNode.convertToArray;
-
-public class HighestCommonFactor {
-    public int[] getHighestCommonFactor(int[] input) {
-
-//        ArrayList<Integer> highestCommonDivisor = new ArrayList<Integer>();
+//
+//import static leetcodeProblem.ListNode.convertToArray;
+//
+//public class HighestCommonFactor {
+//    public int[] getHighestCommonFactor(int[] input) {
+//
+////        ArrayList<Integer> highestCommonDivisor = new ArrayList<Integer>();
 //        int index = 0;
 //        int maximum = maximumOf(input);
 //        for (int counter = 2; counter < maximum; ) {
@@ -43,46 +43,10 @@ public class HighestCommonFactor {
 //
 //        }
 //        return largest;
-    }
-
-}
-//        int count = 1;
-//        int num1 = 0;
-//        int num2 = 0;
-//
-//        for (int index = 1; index < input.length; index++) {
-//            input[num1] = input[num2];
-//          if (input[num1] % index == 0 && input[num2] % index == 0){
-//
-//          }
-//        }
-//      return new int[]{count};
 //    }
+//
 //}
-//        if (input == null || input.length == 0) {
-//            throw new IllegalArgumentException("Input array is empty or null");
-//        }
-//
-//        int hcf = input[0];
-//
-//        for (int i = 1; i < input.length; i++) {
-//            hcf = findHCF(hcf, input[i]);
-//            if (hcf == 1) {
-//                break;
-//            }
-//        }
-//
-//        return new int[]{hcf};
-//    }
-//
-//        private int findHCF(int a, int b) {
-//            while (b != 0) {
-//                int temp = b;
-//                b = a % b;
-//                a = temp;
-//            }
-//            return a;
-//        }
+
 
 
 //     Initially set HCF to 1.
