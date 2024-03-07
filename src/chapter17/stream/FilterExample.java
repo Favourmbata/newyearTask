@@ -9,10 +9,10 @@ import java.util.stream.Stream;
 
 public class FilterExample {
     public static void main(String[] args) {
-//        List <String> names =
-//                Arrays.asList("john","susan" ,"Kim","josh");
-//        List<String> result = names.stream().filter(name -> name.startsWith("j")).collect(Collectors.toList());
-//        System.out.println(result);
+       List <String> names =
+               Arrays.asList("john","susan" ,"Kim","josh");
+       List<String> result = names.stream().filter(name -> name.startsWith("j")).collect(Collectors.toList());
+      System.out.println(result);
 
 //
 //        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -25,9 +25,9 @@ public class FilterExample {
 //                .map((num)-> num * 2)
 //                .forEach(System.out::println);
 
-        Stream .generate(()-> new Random().nextInt())
-                .limit(5)
-                .forEach((num)-> System.out.println(num));
+//        Stream .generate(()-> new Random().nextInt())
+//                .limit(5)
+//                .forEach((num)-> System.out.println(num));
 
     }
 }
