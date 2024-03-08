@@ -1,9 +1,7 @@
 package w3schoolStream;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Filter;
 import java.util.stream.Collectors;
 
 
