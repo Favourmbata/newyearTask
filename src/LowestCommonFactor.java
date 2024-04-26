@@ -7,11 +7,10 @@ public class LowestCommonFactor {
         return gcd(b, a % b);
     }
 
-    // Function to calculate LCM using GCD
     static int lcmOfArray(int[] numbers) {
         if (numbers.length < 2) {
             System.out.println("Array must have at least two elements.");
-            return -1; // Return a meaningful value or throw an exception based on your requirements.
+            return -1;
         }
 
         int lcmResult = numbers[0];
@@ -24,7 +23,7 @@ public class LowestCommonFactor {
     }
 
     public static void main(String[] args) {
-        int[] array = {16, 24, 40};
+        int[] array = {8, 16, 12};
 
         int result = lcmOfArray(array);
 

@@ -1,6 +1,6 @@
 public class Hcf {
 
-    // Function to find HCF of two numbers using Euclidean algorithm
+
     private static int findHCF(int a, int b) {
         while (b != 0) {
             int temp = b;
@@ -10,11 +10,10 @@ public class Hcf {
         return a;
     }
 
-    // Function to find HCF of an array of three elements
     private static int findHCFOfArray(int[] arr) {
         if (arr.length < 2) {
             System.out.println("Array must have at least two elements.");
-            return -1; // Return a meaningful value or throw an exception based on your requirements.
+            return -1;
         }
 
         int hcfResult = findHCF(arr[0], arr[1]);
@@ -27,7 +26,7 @@ public class Hcf {
     }
 
     public static void main(String[] args) {
-        int[] arrayOfThreeElements = {8,4,12};
+        int[] arrayOfThreeElements = {8,16,12};
         int result = findHCFOfArray(arrayOfThreeElements);
 
         if (result != -1) {
